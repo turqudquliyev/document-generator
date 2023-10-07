@@ -1,0 +1,92 @@
+{
+	"info": {
+		"_postman_id": "d53b72bb-2258-4aa9-a223-8a02036e136f",
+		"name": "document-generator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24624012"
+	},
+	"item": [
+		{
+			"name": "ms-report",
+			"item": [
+				{
+					"name": "EXCEL XLSX GENERATOR",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/v1/excel/xlsx",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"v1",
+								"excel",
+								"xlsx"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EXCEL XLS GENERATOR",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/v1/excel/xls",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"v1",
+								"excel",
+								"xls"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ms-product",
+			"item": [
+				{
+					"name": "GET ALL PRODUCTS",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8888/internal/v1/products",
+							"host": [
+								"localhost"
+							],
+							"port": "8888",
+							"path": [
+								"internal",
+								"v1",
+								"products"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
